@@ -11,8 +11,6 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -37,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/ashkir004/meet-landing-page](https://github.com/ashkir004/meet-landing-page)
+- Live Site URL: [meet-landing-page-ashkir004.netlify.app/](https://meet-landing-page-ashkir004.netlify.app/)
 
 ## My process
 
@@ -91,5 +89,5 @@ Users should be able to:
 
 - Frontend Mentor - [Frontendmentor.io](https://www.frontendmentor.io/)
 
-- - Netlify - [Netlify.com](https://www.netlify.com/)
+- Netlify - [Netlify.com](https://www.netlify.com/)
 
