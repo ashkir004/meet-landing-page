@@ -78,6 +78,7 @@
 
 body {
     font-family: var(--font-family);
+    background-color: var(--white);
 }
 
 /* TYPOGRAPHY */
@@ -413,7 +414,7 @@ body {
     .hero::before {
         content: '';
         display: inline-block;
-        background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
+        background: url(/assets/desktop/image-hero-left.png) bottom left/contain no-repeat;
     }
 
     .hero__cta {
@@ -424,7 +425,7 @@ body {
     .hero::after {
         content: '';
         display: inline-block;
-        background: url(/assets/desktop/image-hero-right.png) top right/contain no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
     }
 
     .text__display-header {
