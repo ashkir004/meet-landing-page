@@ -445,7 +445,7 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) top left/cover no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) top left/contain no-repeat;
         /* border: 3px dashed blue; */
         position: relative;
         top: 4rem;
