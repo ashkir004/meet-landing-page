@@ -415,6 +415,44 @@ body {
 
     .hero {
         display: grid;
+        /* background-color: bisque; */
+        /* width: calc(1120 / 16 * 1rem); */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: var(--space-400);
+        margin: 0 auto;
+        /* border: 2px dashed yellow; */
+        /* align-items: center; */
+    }
+
+    .hero::before {
+        content: '';
+        display: block;
+        background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
+        /* border: 3px dashed blue; */
+        /* align-self: center; */
+    }
+
+    .hero__cta {
+        grid-column: 2;
+        grid-row: 1;
+        gap: var(--space-400);
+        /* border: 3px dashed aliceblue; */
+        position: relative;
+        top: 2rem;
+    }
+
+    .hero::after {
+        content: '';
+        display: block;
+        background: url(/assets/desktop/image-hero-right.png) top left/cover no-repeat;
+        /* border: 3px dashed blue; */
+        position: relative;
+        top: 4rem;
+    }
+
+    /* .hero {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         gap: var(--space-400);
@@ -424,7 +462,7 @@ body {
     .hero::before {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-left.png) bottom left/contain no-repeat;
+        background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
     }
 
     .hero__cta {
@@ -436,10 +474,10 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) top right/contain no-repeat;
         position: relative;
-        top: 1rem;
-    }
+        top: 4rem;
+    } */
 
     .text__display-header {
         font-size: var(--font-xxxl);
