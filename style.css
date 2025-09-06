@@ -306,6 +306,11 @@ body {
 
 @media (min-width: 48rem) {
 
+    .hero {
+        padding: var(--space-800) 0 var(--space-800);
+        gap: var(--space-900);
+    }
+
     .hero::before {
         content: '';
         display: block;
@@ -346,6 +351,10 @@ body {
         max-width: var(--size-152);
         border-radius: var(--size-8);
         object-fit: contain;
+    }
+
+    .main-content {
+        padding: var(--space-700) var(--space-400) var(--space-800);
     }
 
     .main-content__text {
@@ -409,6 +418,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         gap: var(--space-400);
+        padding: var(--space-800) 0 var(--space-800);
     }
 
     .hero::before {
@@ -445,6 +455,10 @@ body {
         font-size: var(--font-md);
         width: 27rem;
         align-self: center;
+    }
+
+    .main-content {
+        padding: var(--space-700) var(--space-1000) var(--space-900);
     }
 
     .main-content__title {
