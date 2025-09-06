@@ -421,6 +421,7 @@ body {
         grid-template-rows: 1fr;
         gap: var(--space-400);
         margin: 0 auto;
+        padding: var(--space-800) 0 var(--space-800);
         /* border: 2px dashed yellow; */
         /* align-items: center; */
     }
