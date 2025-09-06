@@ -135,7 +135,6 @@ body {
     content: '';
     display: block;
     background: url(/assets/tablet/image-hero.png) center center/cover no-repeat;
-    width: 100%;
     min-height: var(--size-160); 
 }
 
