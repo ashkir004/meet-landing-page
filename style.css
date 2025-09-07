@@ -276,7 +276,7 @@ body {
 
 .step-indicator--two {
     position: relative;
-    /* top: 1.8rem; */
+    top: 1.8rem;
     z-index: 2;
 }
 
@@ -523,6 +523,10 @@ body {
     .img-group img {
         max-width: var(--size-256);
         min-height: var(--size-256);
+    }
+
+    .footer {
+        margin-top: -1.5rem;
     }
 
 
