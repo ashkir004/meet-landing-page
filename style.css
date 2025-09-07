@@ -526,7 +526,7 @@ body {
     }
 
     .footer {
-        margin-top: -1.5rem;
+        margin-top: -1.8rem;
     }
 
 
@@ -545,7 +545,7 @@ body {
 
     .footer-cta .text__section-title {
         width: var(--size-445);
-        margin-left: auto;
+        margin: 0 auto;
     }
 
     .footer-cta .text__description {
