@@ -431,7 +431,7 @@ body {
         display: block;
         background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
         /* border: 3px dashed blue; */
-        /* align-self: center; */
+        align-self: center;
     }
 
     .hero__cta {
