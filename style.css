@@ -439,8 +439,7 @@ body {
         grid-row: 1;
         gap: var(--space-400);
         /* border: 3px dashed aliceblue; */
-        position: relative;
-        top: 1.5rem;
+        margin-top: 1.5rem;
     }
 
     .hero::after {
