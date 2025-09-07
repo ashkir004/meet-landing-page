@@ -494,8 +494,13 @@ body {
         min-height: var(--size-256);
     }
 
+    .step-indicator--two {
+        position: relative;
+        top: 0rem;
+    }
+
     .footer {
-        /* margin-top: -1.8rem; */
+        margin-top: -1.8rem;
     }
 
 
