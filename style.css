@@ -447,8 +447,8 @@ body {
         display: block;
         background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
         /* border: 3px dashed blue; */
-        /* position: relative; */
-        margin-top: 1.5rem;
+        position: relative;
+        top: 1.5rem;
     }
 
     /* .hero {
