@@ -551,16 +551,16 @@ body {
 
     .footer-cta .text__section-title {
         width: var(--size-445);
-        margin: 0 auto;
+        margin-right: auto;
     }
 
     .footer-cta .text__description {
         width: var(--size-355);
-        margin: 0 auto;
+        margin-right: auto;
     }
 
     .footer-cta .btn {
-        margin: 0 auto;
+        margin-left: auto;
         align-self: flex-start;
     }
 }
