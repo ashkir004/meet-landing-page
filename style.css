@@ -264,7 +264,7 @@ body {
 .img-group img {
     max-width: var(--size-160);
     border-radius: var(--size-8);
-    object-fit: contain;
+    /* object-fit: contain; */
 }  
 
 .footer {
@@ -350,7 +350,7 @@ body {
     .img-group img {
         max-width: var(--size-152);
         border-radius: var(--size-8);
-        object-fit: cover;
+        /* object-fit: cover; */
     }
 
     .main-content {
