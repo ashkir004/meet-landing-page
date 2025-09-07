@@ -118,7 +118,7 @@ body {
     color: var(--slate-600);
 }
 
-.nav {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -409,7 +409,7 @@ body {
 
 @media (min-width: 64rem) {
 
-    .nav {
+    .header {
         padding-top: var(--space-1000);
     }
 
@@ -495,7 +495,7 @@ body {
     }
 
     .footer {
-        margin-top: -1.8rem;
+        /* margin-top: -1.8rem; */
     }
 
 
