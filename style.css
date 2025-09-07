@@ -550,9 +550,10 @@ body {
 
     .footer-cta .text__description {
         width: var(--size-355);
+        margin: 0 auto;
     }
 
     .footer-cta .btn {
-        margin-left: auto;
+        margin: 0 auto;
     }
 }
