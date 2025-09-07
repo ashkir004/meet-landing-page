@@ -515,7 +515,6 @@ body {
     .footer-cta__content {
         display: flex;
         flex-direction: row;
-        gap: var(--space-400);
         text-align: left;
         max-width: var(--size-1120);
         align-items: center;
