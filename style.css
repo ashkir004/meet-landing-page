@@ -439,7 +439,7 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) center center/contain no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) center right/contain no-repeat;
         position: relative;
         top: 1.5rem;
     }
