@@ -532,6 +532,7 @@ body {
         padding: var(--space-1400) var(--space-1000);
         text-align: left;
         /* max-width: var(--size-1120); */
+        margin-bottom: -1.5rem;
 
         background:
             linear-gradient(var(--cyan-600-transparent), var(--cyan-600-transparent)),
