@@ -445,10 +445,10 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) top left/contain no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
         /* border: 3px dashed blue; */
         position: relative;
-        top: 3.5rem;
+        /* top: 3.5rem; */
     }
 
     /* .hero {
