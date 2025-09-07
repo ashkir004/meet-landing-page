@@ -519,8 +519,8 @@ body {
     }
 
     .img-group img {
-        min-width: var(--size-256);
-        min-height: var(--size-256);
+        max-width: var(--size-256);
+        max-height: var(--size-256);
     }
 
     .footer-cta {
