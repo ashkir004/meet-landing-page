@@ -423,8 +423,10 @@ body {
 
     .hero::before {
         content: '';
-        display: block;
-        background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
+        display: inline-block;
+        background: url(/assets/desktop/image-hero-left.png) top right/cover no-repeat;
+        min-width: calc(394 / 16 * 1rem);
+        min-height: calc(303 / 16 * 1rem); 
     }
 
     .hero__cta {
@@ -438,7 +440,10 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) center right/contain no-repeat;
+        background: url(/assets/desktop/image-hero-right.png) top left/cover no-repeat;
+        min-width: calc(394 / 16 * 1rem);
+        min-height: calc(303 / 16 * 1rem);
+        /* margin-left: 0.5rem; */
     }
 
     .text__display-header {
