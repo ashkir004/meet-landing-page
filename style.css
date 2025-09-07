@@ -516,19 +516,18 @@ body {
         display: flex;
         flex-direction: row;
         text-align: left;
+        gap: var(--space-400);
         max-width: var(--size-1120);
         align-items: center;
-        margin: 0 auto;
     }
 
     .footer-cta__content .text__section-title {
         width: var(--size-445);
-        margin-right: auto;
     }
 
     .footer-cta__content .text__description {
         width: var(--size-355);
-        margin-right: auto;
+        align-self: flex-start;
     }
 
     .footer-cta__content .btn {
