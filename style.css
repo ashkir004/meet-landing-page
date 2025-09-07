@@ -443,7 +443,6 @@ body {
         background: url(/assets/desktop/image-hero-right.png) top left/cover no-repeat;
         min-width: calc(394 / 16 * 1rem);
         min-height: calc(303 / 16 * 1rem);
-        /* margin-left: 0.5rem; */
     }
 
     .text__display-header {
