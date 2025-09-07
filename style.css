@@ -419,14 +419,17 @@ body {
         gap: var(--space-400);
         margin: 0 auto;
         padding: var(--space-800) 0 var(--space-800);
+        overflow-x: hidden;
     }
 
     .hero::before {
         content: '';
         display: inline-block;
-        background: url(/assets/desktop/image-hero-left.png) top right/cover no-repeat;
-        min-width: calc(394 / 16 * 1rem);
-        min-height: calc(303 / 16 * 1rem); 
+        background: url(/assets/desktop/image-hero-left.png) top right/contain no-repeat;
+        width: calc(394 / 16 * 1rem);
+        height: calc(303 / 16 * 1rem); 
+        margin-right: auto;
+        margin-left: -1.5rem;
     }
 
     .hero__cta {
@@ -440,9 +443,12 @@ body {
     .hero::after {
         content: '';
         display: block;
-        background: url(/assets/desktop/image-hero-right.png) top left/cover no-repeat;
-        min-width: calc(394 / 16 * 1rem);
-        min-height: calc(303 / 16 * 1rem);
+        background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
+        width: calc(394 / 16 * 1rem);
+        height: calc(303 / 16 * 1rem);
+        margin-left: auto;
+        align-self: flex-end;
+        margin-right: -1.8rem;
     }
 
     .text__display-header {
