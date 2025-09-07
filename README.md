@@ -59,24 +59,40 @@ Users should be able to:
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: var(--space-400);
+    margin: 0 auto;
+    padding: var(--space-800) 0 var(--space-800);
+    overflow-x: hidden;
 }
 
 .hero::before {
     content: '';
-    display: inline-block;
-    background: url(/assets/desktop/image-hero-left.png) top left/contain no-repeat;
+    display: block;
+    background: url(/assets/desktop/image-hero-left.png) top right/contain no-repeat;
+    width: calc(394 / 16 * 1rem);
+    height: calc(303 / 16 * 1rem); 
+    margin-right: auto;
+    margin-left: -1.5rem;
 }
 
 .hero__cta {
     grid-column: 2;
     grid-row: 1;
+    gap: var(--space-400);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero::after {
     content: '';
-    display: inline-block;
-    background: url(/assets/desktop/image-hero-right.png) top right/contain no-repeat;
+    display: block;
+    background: url(/assets/desktop/image-hero-right.png) bottom right/contain no-repeat;
+    width: calc(394 / 16 * 1rem);
+    height: calc(303 / 16 * 1rem);
+    margin-left: auto;
+    align-self: flex-end;
+    margin-right: -1.8rem;
 }
+
 ```
 
 ## Author

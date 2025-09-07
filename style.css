@@ -1,4 +1,4 @@
-/* CSS Reset */
+/* CSS RESET */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -425,7 +425,7 @@ body {
 
     .hero::before {
         content: '';
-        display: inline-block;
+        display: block;
         background: url(/assets/desktop/image-hero-left.png) top right/contain no-repeat;
         width: calc(394 / 16 * 1rem);
         height: calc(303 / 16 * 1rem); 
